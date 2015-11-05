@@ -1,0 +1,63 @@
+#mixBayesCLR_29Oct.bug
+#CTS 29 Oct 2009
+
+model
+{
+
+#Priors on source proportions, in CLR-transformed space
+for (i in 1:nSrc)
+  {
+  f.transform[i] ~ dunif(-3,5)
+  }
+
+#Prior on wTot, the total water contribution
+wTot ~ dbeta(wTotPriorPars[1],wTotPriorPars[2])
+
+#Prior on DeltaTot, the total trophic fractionation of N. Truncated at 0.
+DeltaTot ~ dnorm(DeltaTotPriorPars[1],DeltaTotPriorPars[2])I(0,)
+
+#Priors on residual var of consumers
+for (i in 1:nIso)
+  {
+  residSd[i] ~ dunif(0,100)
+  residVar[i] <- residSd[i]*residSd[i]
+  }
+
+#CLR math (untransform source proportions)
+for (i in 1:nSrc)
+  {
+  expFTrans[i] <- exp(f.transform[i])
+  }
+f.tot <- sum(expFTrans[])
+for (src in 1:nSrc-1)
+  {
+  f[src] <- exp(f.transform[src])/f.tot
+  }
+f[nSrc] <- 1 - sum(f[1:(nSrc-1)])
+
+#Calculate the predicted consumer dX
+dC <- f[1]*sourceData[1,2] + f[2]*sourceData[1,3] + f[3]*sourceData[1,4]
+dN <- f[1]*sourceData[2,2] + f[2]*sourceData[2,3] + f[3]*sourceData[2,4] + DeltaTot
+dH <- wTot*sourceData[3,1] + (1-wTot)*(f[1]*sourceData[3,2] + f[2]*sourceData[3,3] + f[3]*sourceData[3,4])
+dX[1] <- dC
+dX[2] <- dN
+dX[3] <- dH
+
+#Calculate the prior precision on consumer dX (error propagation of dX eqns above, plus residVar
+dCVar <- f[1]*f[1]*sourceDataVar[1,2] + f[2]*f[2]*sourceDataVar[1,3] + f[3]*f[3]*sourceDataVar[1,4] + residVar[1]
+dNVar <- f[1]*f[1]*sourceDataVar[2,2] + f[2]*f[2]*sourceDataVar[2,3] + f[3]*f[3]*sourceDataVar[2,4] + 1/DeltaTotPriorPars[2] + residVar[2]
+dHVar <- wTot*wTot*sourceDataVar[3,1] + sourceData[3,1]*sourceData[3,1]*wCompoundVar + (1-2*wTot+wTot*wTot)*(f[1]*f[1]*sourceDataVar[3,2] + f[2]*f[2]*sourceDataVar[3,3] + f[3]*f[3]*sourceDataVar[3,4]) + (f[1]*sourceData[3,2] + f[2]*sourceData[3,3] + f[3]*sourceData[3,4])*(f[1]*sourceData[3,2] + f[2]*sourceData[3,3] + f[3]*sourceData[3,4])*wCompoundVar + residVar[3]
+dXPrec[1] <- 1/dCVar
+dXPrec[2] <- 1/dNVar
+dXPrec[3] <- 1/dHVar
+
+#Bring in data to compute likelihood
+for (i in 1:nSamples)
+  {
+  for (iso in 1:nIso)
+    {
+    dXObs[i,iso] ~ dnorm(dX[iso], dXPrec[iso])
+    }
+  }
+
+}

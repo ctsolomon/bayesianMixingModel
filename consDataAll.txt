@@ -1,0 +1,105 @@
+sampleID	lake	sampleDate	taxon	taxonGroup	depth	depthGroup	dD	d15N	d13C	nIndiv	lengthMean	lengthSd	lengthMin	lengthMax	sComments
+Z-0964	L	2007-05-24	Chaoborus	Chaoborus			-131	6.3	-35.3						
+Z-0970	Crampton	2007-06-07	Chaoborus	Chaoborus			-133.6	5.2	-30.3						
+Z-0971	L	2007-06-07	Chaoborus	Chaoborus			-134.2	5.6	-35.8						
+Z-0972	R	2007-06-07	Chaoborus	Chaoborus			-144	9.5	-29.5						
+Z-0973	T	2007-06-07	Chaoborus	Chaoborus			-149.2	7.2	-33.1						
+Z-0985	L	2007-06-21	Chaoborus	Chaoborus			-138.3	5.4	-35.4						
+Z-0996	Crampton	2007-07-12	Chaoborus	Chaoborus			-134.3	5.5	-28.9						
+Z-0994	L	2007-07-12	Chaoborus	Chaoborus			-141.4	5.7	-35.8						
+Z-0995	R	2007-07-12	Chaoborus	Chaoborus			-136	9.9	-29.8						
+Z-0997	T	2007-07-12	Chaoborus	Chaoborus			-148	6.9	-33.1						
+Z-1009	L	2007-07-26	Chaoborus	Chaoborus			-131.5	5.7	-33.6						
+Z-1017	Crampton	2007-08-09	Chaoborus	Chaoborus			-114.7	5.1	-27.6						
+Z-1015	L	2007-08-09	Chaoborus	Chaoborus			-144.3	5.7	-33.8						
+Z-1016	R	2007-08-09	Chaoborus	Chaoborus			-137	8.7	-28.3						
+Z-1018	T	2007-08-09	Chaoborus	Chaoborus			-131.7	6.7	-33.5						
+Z-1033	L	2007-09-30	Chaoborus	Chaoborus			-130.6	5.8	-33.4						
+Z-1035	R	2007-09-30	Chaoborus	Chaoborus			-128.4	9	-28.3						
+Z-1034	T	2007-09-30	Chaoborus	Chaoborus			-125.2	6.3	-33.6						
+Z-1044	Crampton	2007-10-01	Chaoborus	Chaoborus			-114.9	6	-29.2						
+B-0675	L	2007-05-31	Chironomidae	Chironomidae	1	1	-113.5	1.5	-32.9	30					
+B-0676	L	2007-05-31	Chironomidae	Chironomidae	6	6	-120.6	0.8	-41.5	4					
+B-0703	Crampton	2007-06-01	Chironomidae	Chironomidae	6	6	-107.2	3.2	-33	20					
+B-0695	Crampton	2007-06-01	Chironomidae	Chironomidae	1	1	-133.4	1.1	-28	20					
+B-0689	R	2007-06-01	Chironomidae	Chironomidae	1	1	-125.8	2.8	-26.2	52					"combined B-0689,693"
+B-0694	R	2007-06-01	Chironomidae	Chironomidae	6	6	-125.2	3.8	-33.1	11					
+B-0681	T	2007-06-01	Chironomidae	Chironomidae	1	1	-125.4	2.2	-32.6	37					
+B-0687	T	2007-06-01	Chironomidae	Chironomidae	6	6	-120.8	3.1	-34.1	3					
+B-0716	Crampton	2007-07-25	Chironomidae	Chironomidae	1	1	-127.2	2.3	-25.8	37					
+B-0722	Crampton	2007-07-25	Chironomidae	Chironomidae	6	6	-112.1	3.8	-32.9	15					
+B-0728	L	2007-07-25	Chironomidae	Chironomidae	1	1	-123	2.4	-27.5	35					
+B-0733	L	2007-07-25	Chironomidae	Chironomidae	6	6	-125.8	1.8	-37.1	20					
+B-0740	R	2007-07-25	Chironomidae	Chironomidae	1	1	-130.5	1.4	-23	46					
+B-0741	R	2007-07-25	Chironomidae	Chironomidae	6	6	-126.4	4.2	-33	30					
+B-0750	T	2007-07-25	Chironomidae	Chironomidae	1	1	-133.5	2.1	-30.5	60					
+B-0759	Crampton	2007-08-25	Chironomidae	Chironomidae	1	1	-120.6	2.6	-27.1	38					
+B-0752	Crampton	2007-08-25	Chironomidae	Chironomidae	6	6	-116	4.5	-31.6	19					
+B-0770	L	2007-08-25	Chironomidae	Chironomidae	1	1	-132.4	0.7	-27.9	28					
+B-0779	L	2007-08-25	Chironomidae	Chironomidae	6	6	-133	0.8	-38.6	9					
+B-0773	R	2007-08-25	Chironomidae	Chironomidae	1	1	-129.3	1.9	-24.7	32					
+B-0777	T	2007-08-25	Chironomidae	Chironomidae	1	1	-129.7	2.1	-28.5	44					
+B-0806	Crampton	2007-10-02	Chironomidae	Chironomidae	6	6	-116.2	3.8	-32.6	15					
+B-0797	Crampton	2007-10-02	Chironomidae	Chironomidae	1.5	1	-118.3	2.1	-26.6	41					
+B-0784	L	2007-10-02	Chironomidae	Chironomidae	1	1	-130.3	2	-26.1	50					
+B-0807	R	2007-10-02	Chironomidae	Chironomidae	6	6	-134.3	3.5	-34.1	40					
+B-0809	R	2007-10-02	Chironomidae	Chironomidae	1.5	1	-131.8	1.6	-23.3	24					
+B-0805	T	2007-10-02	Chironomidae	Chironomidae	1.5	1	-120.4	1.5	-30.4	54					
+F-0613	Crampton	2007-05-30	BLG	fish 1			-127.3	6.9	-26.2	5	52.2	14.6	35	66	"combined F-0613,614,615,616,617"
+F-0669	Crampton	2007-07-28	BLG	fish 1			-122.5	6.8	-26	5	54.8	16.5	41	80	"combined F-0669,670,671,672,673"
+F-0898	Crampton	2007-08-27	BLG	fish 1			-127.5	6.8	-26.7	2	53	4.2	50	56	"combined F-0898,900"
+F-0931	Crampton	2007-10-01	BLG	fish 1			-130.6	6.3	-25.4	3	45.3	8	37	53	"combined F-0931,932,933"
+F-0622	R	2007-06-01	FHM	fish 1			-141.1	7.7	-27.8	2	83	5.7	79	87	"combined F-0622,623"
+F-0585	T	2007-05-30	FSD	fish 1			-130.8	7.3	-28.3	3	81.3	13.1	71	96	"combined F-0585,586,587"
+F-0627	R	2007-06-01	FSD	fish 1			-137.3	8.2	-27.7	5	71.4	14.3	59	96	"combined F-0627,628,629,630,631"
+F-0638	T	2007-07-26	FSD	fish 1			-131.9	6.6	-27.3	3	60.3	1.1	59	61	"combined F-0638,639,640"
+F-0906	T	2007-08-28	FSD	fish 1			-125.4	7.5	-27.6	3	69.7	3.2	66	72	"combined F-0906,907,908"
+F-0921	T	2007-10-01	FSD	fish 1			-127.5	8.3	-29.1	3	76	15	61	91	"combined F-0921,922,923"
+F-0676	R	2007-07-28	GNS	fish 1			-140.3	7.9	-25.4	3	110.7	22.5	85	127	"combined F-0676,677,678"
+F-0915	R	2007-08-30	GNS	fish 1			-143	8	-25.2	3	98	13.8	86	113	"combined F-0915,916,917"
+F-0664	L	2007-07-28	LMB	fish 1			-139.4	6.3	-29.4	2	51.5	6.4	47	56	"combined F-0664,665"
+F-0883	L	2007-08-23	LMB	fish 1			-132.9	6.6	-27.3	3	50.7	7	44	58	"combined F-0883,884,885"
+F-0604	Crampton	2007-05-30	LMB	fish 2			-115.2	9.4	-25.2	5	274.4	83.9	175	365	"combined F-0604,605,606,609,610"
+F-0607	L	2007-05-30	LMB	fish 2			-134.9	8.1	-29.8	3	185	19.7	169	207	"combined F-0607,608,621"
+F-0651	Crampton	2007-07-28	LMB	fish 2			-102.1	8.9	-25.4	3	280.7	92.5	203	383	"combined F-0651,652,653"
+F-0660	L	2007-07-28	LMB	fish 2			-115.9	8.2	-29.6	5	217.2	90.8	136	355	"combined F-0660,661,662,663,667"
+F-0886	Crampton	2007-08-27	LMB	fish 2			-109.8	9.3	-23.9	3	295	37.4	270	338	"combined F-0886,887,888"
+F-0901	L	2007-08-28	LMB	fish 2			-123.4	9.7	-31.1	2	273	24	256	290	"combined F-0901,902"
+F-0940	Crampton	2007-10-01	LMB	fish 2			-103.4	10.3	-24.6	2	399	66.5	352	446	"combined F-0940,941"
+F-0942	L	2007-10-01	LMB	fish 2			-120.4	9.8	-30.9	3	264.3	41.9	216	289	"combined F-0942,943,944"
+F-0589	R	2007-05-30	PKS	fish 2			-129.7	8.4	-25.3	5	80	14.1	66	99	"combined F-0589,590,591,592,593"
+F-0912	R	2007-08-27	PKS	fish 2			-116.8	8.4	-27.3	3	87.7	8.4	78	93	"combined F-0912,913,914"
+F-0945	R	2007-10-01	PKS	fish 2			-121.1	9.3	-27.4	3	64.7	2.1	63	67	"combined F-0945,946,947"
+B-0677	L	2007-05-31	Libellulidae	Odanata	1	1	-116.6	2.7	-29.8	1					
+B-0696	Crampton	2007-06-01	Libellulidae	Odanata	1	1	-104.9	2.5	-26.5	4					"combined B-0696,702"
+B-0717	Crampton	2007-07-25	Libellulidae	Odanata	1	1	-105.8	2.4	-25.4	9					"combined B-0717,718"
+B-0682	T	2007-06-01	Libellulidae/Corduliidae	Odanata	1	1	-112.5	2.6	-31.7	4					
+B-0729	L	2007-07-25	Libellulidae/Corduliidae	Odanata	1	1	-107.8	3.3	-28.7	3					
+B-0735	R	2007-07-25	Libellulidae/Corduliidae	Odanata	1	1	-103.2	4.2	-25.9	3					
+B-0747	T	2007-07-25	Libellulidae/Corduliidae	Odanata	1	1	-119.1	3.2	-29.9	6					
+B-0755	Crampton	2007-08-25	Libellulidae/Corduliidae	Odanata	1	1	-116.5	2.5	-25.7	3					
+B-0766	L	2007-08-25	Libellulidae/Corduliidae	Odanata	1	1	-119.5	2.7	-27.8	4					
+B-0772	R	2007-08-25	Libellulidae/Corduliidae	Odanata	1	1	-113	3.2	-23.3	4					
+B-0776	T	2007-08-25	Libellulidae/Corduliidae	Odanata	1	1	-111.4	2.7	-29.2	2					
+B-0792	Crampton	2007-10-02	Libellulidae/Corduliidae	Odanata	1.5	1	-116.6	1.7	-25.3	1					"large individual, ~ 1.5 cm"
+B-0787	L	2007-10-02	Libellulidae/Corduliidae	Odanata	1.5	1	-106.4	2.9	-29.2	1					"large individual, ~ 1.5 cm"
+B-0811	R	2007-10-02	Libellulidae/Corduliidae	Odanata	1.5	1	-107.9	3.8	-25.5	3					"large individuals, 1.2-1.5 cm"
+B-0800	T	2007-10-02	Libellulidae/Corduliidae	Odanata	1.5	1	-100	3.1	-30.3	3					"large individuals, ~ 1.2 cm"
+Z-0978	T	2007-06-07	Bosmina	zoop			-157.8			632					
+Z-0998	T	2007-07-12	Bosmina	zoop			-130.3			4000					
+Z-1025	T	2007-08-09	Bosmina	zoop			-150.1			1932					
+Z-1041	T	2007-09-30	Bosmina	zoop			-130.3			500					
+Z-0965	L	2007-05-24	Daphnia	zoop			-152.3	0.6	-34.5	100					
+Z-0974	L	2007-06-07	Daphnia	zoop			-147.7	0.1	-35	150					
+Z-0976	R	2007-06-07	Daphnia	zoop			-154.3	2.7	-27.8	154					
+Z-0986	L	2007-06-21	Daphnia	zoop			-159.6	0.8	-34.5	100					
+Z-1001	L	2007-07-12	Daphnia	zoop			-154.9	0.9	-33.6	100					
+Z-1002	R	2007-07-12	Daphnia	zoop			-160.7	5.1	-26.1	150					
+Z-1010	L	2007-07-26	Daphnia	zoop			-145.8	1.9	-31.6	150					
+Z-1019	L	2007-08-09	Daphnia	zoop			-158.4			112					
+Z-1038	L	2007-09-30	Daphnia	zoop			-145.7	1.8	-36.5	200					
+Z-0981	Crampton	2007-06-07	Diaptomidae	zoop			-144.8			309					
+Z-1042	Crampton	2007-10-01	Diaptomidae	zoop			-142			1000					
+Z-1036	R	2007-09-30	H. gibberum	zoop			-144.6	4.6	-28.7	500					
+Z-1005	Crampton	2007-07-12	M. edax	zoop			-137.7	2.1	-27.1	203					
+Z-1024	Crampton	2007-08-09	M. edax	zoop			-131.2	2.7	-26.5	385					
